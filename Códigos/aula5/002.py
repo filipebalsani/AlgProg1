@@ -1,0 +1,9 @@
+a = [0,1,2,3,4]
+b = a
+#c = b
+c = a[:]
+b[1] = 7
+c[1] = 8
+print("a = ",a)
+print("b = ",b)
+print("c = ",c)
