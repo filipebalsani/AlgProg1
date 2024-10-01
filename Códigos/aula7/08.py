@@ -1,0 +1,15 @@
+st = input("Frase: ")
+
+esp = st.count(" ")
+a = st.count("a")
+e = st.count("a")
+i = st.count("i")
+o = st.count("o")
+u = st.count("u")
+
+print("Espaços: ", esp)
+print("As: ", a)
+print("Es: ", e)
+print("Is: ", i)
+print("Os: ", o)
+print("Us: ", u)
